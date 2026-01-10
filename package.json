@@ -1,0 +1,23 @@
+{
+  "name": "idk-lamp",
+  "version": "0.1.0",
+  "description": "A tiny Web Component that signals 'I don't know' boundary with light.",
+  "license": "CC0-1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/idk-lamp.js",
+  "unpkg": "./dist/idk-lamp.min.js",
+  "jsdelivr": "./dist/idk-lamp.min.js",
+  "scripts": {
+    "build": "mkdir -p dist && esbuild src/idk-lamp.js --bundle --format=iife --global-name=IdkLampBundle --outfile=dist/idk-lamp.js",
+    "minify": "mkdir -p dist && esbuild src/idk-lamp.js --bundle --format=iife --global-name=IdkLampBundle --minify --outfile=dist/idk-lamp.min.js",
+    "dist": "npm run build && npm run minify"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "keywords": [],
+  "author": ""
+}

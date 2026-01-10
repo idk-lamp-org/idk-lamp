@@ -1,0 +1,38 @@
+<!-- demo/index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>idk-lamp Demo</title>
+  <style>
+    body{
+      display:flex; flex-direction:column; justify-content:center; align-items:center;
+      height:100vh; gap:2rem; background:#f4f4f4; font-family:monospace; color:#666;
+    }
+    .row{ display:flex; gap:3rem; align-items:center; }
+    .item{ text-align:center; }
+    .label{ margin-top:10px; font-size:.8rem; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="item">
+      <idk-lamp state="idk"></idk-lamp>
+      <div class="label">state="idk"</div>
+    </div>
+
+    <div class="item">
+      <idk-lamp state="active"></idk-lamp>
+      <div class="label">state="active"</div>
+    </div>
+
+    <div class="item">
+      <idk-lamp interactive></idk-lamp>
+      <div class="label">interactive (click / Enter / Space)</div>
+    </div>
+  </div>
+
+  <script src="https://idk-lamp.org/dist/idk-lamp.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* themes/site-dot.css
+   Theme: idk-lamp.org site-like tiny cyan dot
+   Requires the component to expose: part="lamp" on the inner element.
+*/
+
+:root {
+  /* from idk-lamp.org index.html */
+  --idk-site-lamp-off: #2a2a35;
+  --idk-site-lamp-on:  #00d2ff;
+}
+
+/* Make the component a tiny dot */
+idk-lamp {
+  --size: 12px;
+  --border-width: 0px;
+  --border-color: transparent;
+
+  /* Use the site palette */
+  --color-active: var(--idk-site-lamp-off);
+  --color-idk:    var(--idk-site-lamp-on);
+}
+
+/* Replace the default "gloss" with the site's clean dot */
+idk-lamp::part(lamp) {
+  background-image: none !important;
+}
+
+/* Site-like glow + slow breathe when state="idk" */
+idk-lamp[state="idk"]::part(lamp) {
+  box-shadow:
+    0 0 20px var(--idk-site-lamp-on),
+    0 0 60px rgba(0, 210, 255, 0.4);
+  animation: idk-site-breathe 6s infinite ease-in-out;
+}
+
+@keyframes idk-site-breathe {
+  0%   { opacity: 0.6; transform: scale(0.95); }
+  50%  { opacity: 1.0; transform: scale(1.05); }
+  100% { opacity: 0.6; transform: scale(0.95); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  idk-lamp[state="idk"]::part(lamp) {
+    animation: none;
+    transform: none;
+    opacity: 0.9;
+  }
+}

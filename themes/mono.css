@@ -1,0 +1,23 @@
+/* themes/mono.css
+   Theme: monochrome / low-attention UI
+   - active: quiet gray
+   - idk:    brighter neutral with subtle glow
+   Requires: part="lamp"
+*/
+
+idk-lamp {
+  --size: 64px;
+  --border-width: 6px;
+  --border-color: #333;
+
+  --color-active: #2a2a35;
+  --color-idk:    #e0e0e0;
+}
+
+idk-lamp::part(lamp) {
+  background-image: none !important;
+}
+
+idk-lamp[state="idk"]::part(lamp) {
+  box-shadow: 0 0 18px rgba(224, 224, 224, 0.35);
+}
