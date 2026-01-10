@@ -1,0 +1,15 @@
+/* themes/sign.css (scoped)
+   Scoped Theme: sign (explicit "wild sign" defaults)
+   Usage:
+     <link rel="stylesheet" href="https://idk-lamp.org/themes/sign.css">
+     <idk-lamp theme="sign" state="idk"></idk-lamp>
+*/
+
+idk-lamp[theme="sign"] {
+  --size: 80px;
+  --border-width: 8px;
+  --border-color: #333;
+
+  --color-active: #007AFF; /* blue */
+  --color-idk:    #D9A404; /* low-saturation amber */
+}

@@ -131,7 +131,7 @@ class IdkLamp extends HTMLElement {
         }
       </style>
 
-      <div class="lamp-container" id="lamp"></div>
+      <div class="lamp-container" id="lamp" part="lamp"></div>
     `;
   }
 }
