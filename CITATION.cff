@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "idk-lamp"
+abstract: "A design attitude that makes AI abstention explicit. idk-lamp is a deliberately minimal design signal that allows AI systems to explicitly say 'I don't know' — and stop deciding. It marks the boundary where automated judgment must pause and responsibility returns to humans."
+authors:
+  - family-names: "Arakawa"
+    given-names: "Hironobu"
+repository-code: "https://github.com/hironobu-arakawa/idk-lamp"
+url: "https://idk-lamp.org"
+license: CC0-1.0
+version: 0.1.0
+keywords:
+  - AI safety
+  - AI abstention
+  - human oversight
+  - AI governance
+  - responsible AI
+  - web component
+  - AI accountability
+  - uncertainty
+  - decision boundary
