@@ -5,6 +5,8 @@
 これは**実装ガイドではありません**。
 責任がチーム間で移行する際に、不可逆的な失敗を防ぐために存在します。
 
+Spec: `specs/predictability-gate_handover_non_structured.yaml`
+
 ---
 
 ## なぜこのハンドオーバーが存在するのか

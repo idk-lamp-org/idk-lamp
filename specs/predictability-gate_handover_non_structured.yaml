@@ -1,0 +1,86 @@
+predictability_gate_handover_non_structured:
+  meta:
+    name: "Handover Boundary — Non-Structured Data Cases"
+    description: "非構造データに依存する案件を predictability-gate から意図的に分離するための境界定義"
+    scope: "非構造データ（音、匂い、画像、人間の感覚判断）を含む案件"
+    status: "boundary_definition"
+
+  rationale:
+    - "予測ミス（見逃し）が不可逆的な害を引き起こす可能性がある"
+    - "意思決定を数値時系列だけに安全に落とし込めない"
+    - "元のゲート内で責任を明確に強制できない"
+    - "リスクを認識した上での移管であり、拒絶ではない"
+
+  pre_handover_findings:
+    identified_limits:
+      - "数値時系列だけでは不可逆的な見逃しを防げない"
+      - "ログだけでは安全なロールバックを保証できない"
+      - "構造化データと非構造化データを混ぜると失敗モードが隠れる"
+    decision_timing: "モデル構築の前に分離決定"
+
+  irreversible_risks:
+    safety:
+      - "挟まれ・巻き込まれ"
+      - "火傷"
+      - "漏洩"
+      - "暴走状態"
+    quality:
+      - "市場流出"
+      - "リコール"
+      - "ブランド毀損"
+    regulation:
+      - "環境規制"
+      - "労働安全"
+      - "医療 / 食品コンプライアンス"
+    assets:
+      - "設備の破壊"
+      - "長期停止"
+    constraint:
+      - "これらのリスクがログやアラームだけで軽減できない場合、数値のみの扱いに戻してはならない"
+
+  prerequisites:
+    authority_control:
+      - "誰がシステムを止める権限を持つか"
+      - "手動オーバーライドの発動条件と手順"
+    rollback:
+      - "ロールバック可否"
+      - "ロールバックのターゲット状態"
+      - "ロールバック所要時間"
+    redundancy:
+      - "二重検知（Double detection）の要否"
+      - "検知器が一致しない場合の扱い"
+    scope_limitation:
+      - "初期デプロイは制限されなければならない"
+      - "シャドウモード"
+      - "限定されたライン"
+      - "限定された時間枠（Time window）"
+      - "最初のステップとしてのフルスケールデプロイは禁止"
+
+  evaluation_requirements:
+    must_pass_all:
+      deterioration_rate_max: "15%"
+      feature_reproducibility_min: "60%"
+      impact_radius_defined: true
+    impact_radius_definition:
+      - "どのラインか"
+      - "どのシフトか"
+      - "どの運用ユニットか"
+    failure_policy:
+      - "実証できない場合は制限状態の維持、または停止"
+
+  exclusions:
+    - "モデルアーキテクチャ"
+    - "特徴量抽出手法"
+    - "パフォーマンス目標"
+    - "実装タイムライン"
+    - "ソリューションの提示"
+
+  responsibility_statement:
+    - "predictability-gate のスコープはここで終了する"
+    - "受け取るチームが主要なリスクオーナーとなる"
+    - "すべての決定で責任あるオペレーターの明示的指名が必要"
+    - "責任を免除するものではなく、再割当てを明確化するもの"
+
+  references:
+    - "concepts/predictability-gate/docs/09_handover_non_structured.md"
+    - "concepts/predictability-gate/docs/09_handover_non_structured.ja.md"

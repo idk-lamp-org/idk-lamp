@@ -98,3 +98,4 @@ predictability_gate:
     - "concepts/predictability-gate/docs/02_gate_definition.md"
     - "concepts/predictability-gate/docs/05_irreversibility.md"
     - "concepts/predictability-gate/docs/06_sop_numeric.md"
+    - "specs/predictability-gate_handover_non_structured.yaml"

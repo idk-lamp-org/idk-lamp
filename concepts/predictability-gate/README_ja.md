@@ -137,6 +137,7 @@ Gate の結果は、次のいずれかになります。
 
 - **別案件化**  
   → 非構造データ／人判断前提の専用ルートへ
+  → Spec: `specs/predictability-gate_handover_non_structured.yaml`
 
 ---
 

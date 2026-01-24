@@ -19,6 +19,10 @@ Predictability Gateは、**運用の意思決定境界**です。
 Predictability Gateはブロッカーではありません。
 これは、運用、人々、そして信頼を守るための**安全境界**です。
 
+非構造データが含まれる場合は、  
+別ルートとして **ハンドオーバー境界**に移行します。  
+Spec: `specs/predictability-gate_handover_non_structured.yaml`
+
 ---
 
 ### コンテキストとルーツ

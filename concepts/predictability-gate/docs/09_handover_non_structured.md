@@ -8,6 +8,8 @@ This is **not an implementation guide**.
 It exists to prevent irreversible failures
 when responsibility shifts across teams.
 
+Spec: `specs/predictability-gate_handover_non_structured.yaml`
+
 ---
 
 ## Why this handover exists

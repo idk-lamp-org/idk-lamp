@@ -123,6 +123,7 @@ The gate produces one of four outcomes:
 
 - **Separate project**  
   → Non-structured data or human-judgment–centric case
+  → Spec: `specs/predictability-gate_handover_non_structured.yaml`
 
 ---
 

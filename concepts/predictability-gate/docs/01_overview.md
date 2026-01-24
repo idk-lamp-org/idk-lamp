@@ -19,6 +19,10 @@ Key characteristics:
 Predictability Gate is not a blocker.
 It is a **safety boundary** that protects operations, people, and trust.
 
+If non-structured data is involved,  
+move to the **handover boundary** as a separate route.  
+Spec: `specs/predictability-gate_handover_non_structured.yaml`
+
 ---
 
 ### Context & Roots
