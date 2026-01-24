@@ -111,6 +111,9 @@ It only makes one thing visible:
 
 That is enough to change how systems are understood.
 
+Implementation of decision-stopping is handled in **BOA**
+(Boundary-Oriented Architecture), realized as **RCA / RP**.
+
 ---
 
 ## Summary

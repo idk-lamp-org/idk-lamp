@@ -98,7 +98,8 @@ Therefore, it **must have as a structure** conditions such as:
 - Cannot close if it cannot be undone
 - Cannot close if a social context arises
 
-This way of thinking is organized as **Decision Closure**.
+This way of thinking is organized as **Decision Closure**.  
+In BOA, it is realized in implementation as RCA / RP.
 
 ---
 

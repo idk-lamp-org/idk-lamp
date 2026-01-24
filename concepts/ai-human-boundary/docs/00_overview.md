@@ -27,9 +27,9 @@ Decision Closure (Whether AI can close the judgment)
 ├─ 5 Steps (Responsibility / Cancellation / Reversibility / Chain / Social Context)
 └─ Transition (Midway Reversal)
 ↓
-BOA (Boundary of the World)
-
-Code
+BOA (Boundary-Oriented Architecture)
+↓
+Implementation / System Structure
 
 What this repository covers is:
 **The layers above Decision Closure (Human Decision-Making Layer to Value)**.
@@ -96,17 +96,20 @@ that lies "outside" Decision Closure.
 
 ---
 
-# 4. Relationship with BOA (Boundary of the World)
+# 4. Relationship with BOA (Boundary-Oriented Architecture)
 
-BOA is the layer that defines the "boundary of the world,"
-determining the outer frame of how far AI can step in.
+BOA is a methodology that translates boundary decisions
+into system structure, and sits **between decision and implementation**.
 
-- What is AI's responsibility?
-- What is human responsibility?
-- How far is AI's domain?
+BOA does not define the boundaries themselves.
+It preserves already-made boundary decisions
+(responsibility, meaning, judgment) and turns them into structure.
 
-Decision Closure rides on top of BOA,
-and ai-human-boundary is positioned even above that.
+Decision Closure determines whether AI can close a judgment,
+and in BOA it is **realized in implementation** as RCA / RP.
+
+ai-human-boundary covers the **human decision boundary**
+that lies outside of that.
 
 ---
 

@@ -11,6 +11,10 @@ This is not a decision system.
 
 **This is a boundary marker.**
 
+idk-lamp is a **conceptual signal / reading**.  
+Implementation of decision-stopping is handled in **BOA**
+(Boundary-Oriented Architecture), e.g. **RCA / RP**.
+
 ---
 
 ## What it does
@@ -40,9 +44,14 @@ See: [`docs/why-now.md`](docs/why-now.md)
 ```text
 packages/
   idk-lamp/               Core implementation / UI signal
-  predictability-gate/    Conditions for predictability
-  decision-closure/       Responsibility handoff rules
-  ai-human-boundary/      Human–AI boundary notes
+
+concepts/
+  predictability-gate/    Conditions for predictability (concept)
+  ai-human-boundary/      Human–AI boundary notes (concept)
+
+specs/
+  predictability-gate.yaml
+  ai-human-boundary.yaml
 
 docs/
   why-now.md

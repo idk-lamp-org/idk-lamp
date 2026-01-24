@@ -28,9 +28,9 @@ Decision Closure（AIが判断を閉じてよいか）
 ├─ 5ステップ（責任・取消・可逆性・連鎖・社会文脈）
 └─ Transition（途中反転）
 ↓
-BOA（世界の境界）
-
-コード
+BOA（Boundary-Oriented Architecture）
+↓
+実装 / システム構造
 
 このリポジトリが扱うのは、  
 **Decision Closure より上の層（人間の意思決定レイヤー〜価値）** です。
@@ -99,17 +99,20 @@ Decision Closure の“外側”にある
 
 ---
 
-# 4. BOA（世界の境界）との関係
+# 4. BOA（Boundary-Oriented Architecture）との関係
 
-BOA は「世界の境界」を定義する層であり、  
-AI がどこまで踏み込めるかの外枠を決めます。
+BOA は「境界判断を実装構造へ落とす方法論」であり、  
+**決定と実装の間**に位置します。
 
-- 何が AI の責任か  
-- 何が人間の責任か  
-- どこまでが AI の領域か  
+BOA は境界そのものを定義するのではなく、  
+既に決められた境界（責任・意味・判断）を壊さずに  
+システム構造へ変換します。
 
-Decision Closure は BOA の上に乗り、  
-ai-human-boundary はそのさらに上に位置します。
+Decision Closure は、AI が判断を閉じてよいかを決める構造で、  
+BOA では RCA / RP などの形で**実装側に落とされる対象**です。
+
+ai-human-boundary は、その外側にある  
+**人間の意思決定の境界**を扱います。
 
 ---
 

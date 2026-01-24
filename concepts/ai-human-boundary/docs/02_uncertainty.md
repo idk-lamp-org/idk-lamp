@@ -149,7 +149,8 @@ to themselves and their surroundings.
 # 8. Relationship Between Uncertainty and Decision Closure
 
 Decision Closure is
-a structure to decide **whether AI can close the judgment**.
+a structure to decide **whether AI can close the judgment**.  
+In BOA, it is realized in implementation as RCA / RP.
 
 Judgments with large uncertainty
 will inevitably collapse in one of the 5 steps of Decision Closure.

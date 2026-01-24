@@ -148,7 +148,8 @@ AI に対して
 # 8. 人間側の idk-lamp と Decision Closure の関係
 
 Decision Closure は  
-**AI が判断を閉じてよいか** を決める構造。
+**AI が判断を閉じてよいか** を決める構造。  
+BOA では RCA / RP として実装に落とされます。
 
 人間側の idk-lamp は  
 **人間が判断を閉じてよいか** を決めるシグナル。

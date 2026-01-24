@@ -145,7 +145,8 @@ What is important is
 # 8. Relationship Between Human-side idk-lamp and Decision Closure
 
 Decision Closure is
-a structure to decide **whether AI can close the judgment**.
+a structure to decide **whether AI can close the judgment**.  
+In BOA, it is realized in implementation as RCA / RP.
 
 Human-side idk-lamp is
 a signal to decide **whether humans can close the judgment**.

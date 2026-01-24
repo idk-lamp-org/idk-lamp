@@ -11,6 +11,10 @@ AI が **明示的に判断を止める** ためのデザインシグナル。
 
 **これは境界を示す標識です。**
 
+idk-lamp は **概念（読み物）** であり、  
+判断停止の実装は **BOA**（Boundary-Oriented Architecture）側で  
+**RCA / RP** として実体化されます。
+
 ---
 
 ## 何ができるのか
@@ -45,9 +49,14 @@ idk-lamp は、
 ```text
 packages/
   idk-lamp/               コア実装・UIシグナル
-  predictability-gate/    判断可能性の条件（ゲート）
-  decision-closure/       責任の引き渡しルール
-  ai-human-boundary/      人とAIの境界に関する整理
+
+concepts/
+  predictability-gate/    判断可能性の条件（概念）
+  ai-human-boundary/      人とAIの境界に関する整理（概念）
+
+specs/
+  predictability-gate.yaml
+  ai-human-boundary.yaml
 
 docs/
   why-now.ja.md           なぜ今これが必要か

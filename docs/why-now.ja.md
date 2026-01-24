@@ -115,6 +115,9 @@ idk-lamp が可視化するのはただ一つ：
 
 それだけでシステムの理解が変わる。
 
+判断停止の実装は **BOA**（Boundary-Oriented Architecture）側で行われ、  
+**RCA / RP** として実体化される。
+
 ---
 
 ## まとめ

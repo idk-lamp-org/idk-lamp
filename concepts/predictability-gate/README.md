@@ -148,6 +148,9 @@ This repository is part of a broader line of thinking about boundaries and respo
 
 `predictability-gate` is where those ideas become **operational reality**.
 
+Decision stopping is implemented in BOA (RCA / RP),
+while this repository defines the **operational gate** before model building.
+
 ---
 
 ## Usage philosophy

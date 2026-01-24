@@ -18,7 +18,7 @@ ai-human-boundary：
 Decision Closure：
 AI がどこまで踏み込めるか（判断を閉じてよいか）
 
-コード
+実装
 
 つまり、
 
@@ -71,15 +71,17 @@ AI の判断閉路レイヤー（Decision Closure）
 ├─ 5ステップ
 └─ Transition
 ↓
-BOA（世界の境界）
-
-コード
+BOA（Boundary-Oriented Architecture）
+↓
+実装 / システム構造
 
 ai-human-boundary は **Decision Closure の外側** にあり、  
 人間がどう立つかを扱う。
 
-Decision Closure は **AI の内側** にあり、  
+Decision Closure は **AI 側の止まる構造**であり、  
 AI がどこまで踏み込めるかを扱う。
+
+BOA はそれを **RCA / RP などの形で実装構造に落とす方法論**です。
 
 ---
 

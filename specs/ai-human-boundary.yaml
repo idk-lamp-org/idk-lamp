@@ -61,7 +61,7 @@ ai_human_boundary:
     synthesis: "AIが止まり（DC）、人間が正しく立つ（Boundary）ことで協働が成立する"
 
   references:
-    - "docs/01_human-idk-lamp.md"
-    - "docs/02_uncertainty.md"
-    - "docs/03_action-layer.md"
-    - "docs/04_relationship-with-decision-closure.md"
+    - "concepts/ai-human-boundary/docs/01_human-idk-lamp.md"
+    - "concepts/ai-human-boundary/docs/02_uncertainty.md"
+    - "concepts/ai-human-boundary/docs/03_action-layer.md"
+    - "concepts/ai-human-boundary/docs/04_relationship-with-decision-closure.md"

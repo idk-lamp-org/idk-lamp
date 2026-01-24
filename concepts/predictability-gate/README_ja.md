@@ -169,6 +169,9 @@ Predictability Gate は、
 `predictability-gate` は、  
 それらを **運用の現場で実体化した場所**です。
 
+判断停止の実装は BOA 側（RCA / RP）で行われ、  
+本リポジトリは **モデル構築前の運用ゲート**を定義します。
+
 ---
 
 ## 利用について（Usage philosophy）

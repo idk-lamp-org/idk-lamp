@@ -17,7 +17,7 @@ How far humans assume (Values, Uncertainty, Limits of Judgment)
 Decision Closure:
 How far AI can step in (Whether judgment can be closed)
 
-Code
+Implementation
 
 In other words, the relationship is:
 
@@ -68,15 +68,18 @@ AI Judgment Circuit Layer (Decision Closure)
 ├─ 5 Steps
 └─ Transition
 ↓
-BOA (Boundary of the World)
-
-Code
+BOA (Boundary-Oriented Architecture)
+↓
+Implementation / System Structure
 
 ai-human-boundary is **outside of Decision Closure**,
 and deals with how humans stand.
 
-Decision Closure is **inside AI**,
+Decision Closure is the **AI-side stop structure**,
 and deals with how far AI can step in.
+
+BOA is the methodology that **realizes it in implementation**
+as RCA / RP and related structures.
 
 ---
 

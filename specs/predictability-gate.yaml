@@ -95,6 +95,6 @@ predictability_gate:
       - "初期デプロイのスコープが制限されている"
 
   references:
-    - "docs/02_gate_definition.md"
-    - "docs/05_irreversibility.md"
-    - "docs/06_sop_numeric.md"
+    - "concepts/predictability-gate/docs/02_gate_definition.md"
+    - "concepts/predictability-gate/docs/05_irreversibility.md"
+    - "concepts/predictability-gate/docs/06_sop_numeric.md"

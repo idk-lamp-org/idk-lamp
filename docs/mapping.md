@@ -131,6 +131,9 @@ that still changes how systems are interpreted.
 
 idk-lamp itself is implementation-agnostic.
 
+Decision-stopping is implemented in **BOA** (Boundary-Oriented Architecture)
+as **RCA / RP**.
+
 One possible implementation direction —  
 where determinability and predictability are explicitly gated — can be found here:
 

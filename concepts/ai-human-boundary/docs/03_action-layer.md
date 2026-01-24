@@ -129,7 +129,8 @@ collaboration between AI and humans becomes sound.
 # 6. Relationship Between Action Layer and Decision Closure
 
 Decision Closure is
-a structure to decide **whether AI can close the judgment**.
+a structure to decide **whether AI can close the judgment**.  
+In BOA, it is realized in implementation as RCA / RP.
 
 Action Layer is
 **a structure for humans to assume action**.

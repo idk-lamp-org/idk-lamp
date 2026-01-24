@@ -150,7 +150,8 @@ AI が idk-lamp を持つように、
 # 8. 不確実性と Decision Closure の関係
 
 Decision Closure は  
-**AI が判断を閉じてよいか** を決める構造。
+**AI が判断を閉じてよいか** を決める構造。  
+BOA では RCA / RP として実装に落とされます。
 
 不確実性が大きい判断は、  
 Decision Closure の 5 ステップのどこかで必ず破綻する。
