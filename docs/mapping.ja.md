@@ -142,6 +142,14 @@ https://github.com/hironobu-arakawa/predictability-gate
 
 このリンクは例示であり、規範ではない。
 
+**スコープ上の注記（gate と tenure）:**
+idk-lamp が可視化するのは、引き渡しの「瞬間」— 点の責任（gate）である。
+人間が引き受けた後にその責任を担当交代・時間経過をまたいで
+持ち続けること（線の責任 / tenure）は、意図的に扱わない。
+そちらは VCDesign の Value Tenure Model
+（`vcdesign` リポジトリ `specs/core/value-tenure-model.md`）が扱う。
+ランプが消えたとき、責任は終わったのではなく、始まっている。
+
 ---
 
 ## まとめ

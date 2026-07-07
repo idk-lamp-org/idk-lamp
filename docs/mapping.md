@@ -141,6 +141,14 @@ https://github.com/hironobu-arakawa/predictability-gate
 
 This link is illustrative, not normative.
 
+**Scope note (gate vs tenure):**
+idk-lamp visualizes the *moment* of handoff — gate responsibility, a point in time.
+It deliberately does not track what happens after a human accepts:
+holding that responsibility across handovers and time (*tenure*) is covered by
+VCDesign's Value Tenure Model
+(`vcdesign` repository, `specs/core/value-tenure-model.md`).
+When the lamp turns off, responsibility has started, not ended.
+
 ---
 
 ## Summary

@@ -62,6 +62,12 @@ This project is designed as a practical signal that marks
 the boundary where AI systems must stop deciding
 and defer responsibility to humans.
 
+idk-lamp makes visible the *moment* responsibility is handed to a human
+(gate responsibility, a point in time).
+What happens after acceptance — holding that responsibility across
+handovers and time (tenure) — is covered by
+VCDesign's Value Tenure Model.
+
 idk-lamp (official site)
 https://idk-lamp.org/
 
